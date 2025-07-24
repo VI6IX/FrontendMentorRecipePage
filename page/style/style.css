@@ -106,7 +106,7 @@ section#prepTime h2 {
 
 section#prepTime ul {
     list-style-position: inside;
-    list-style: none;
+    list-style-type: none;
 }
 
 section#prepTime li {
@@ -121,4 +121,33 @@ section#prepTime li::before {
     font-weight: bolder;
     color: var(--rose800);
     padding-right: 27px;
+}
+
+section#ingredients {
+    margin: 0px 25px 0px 25px;
+}
+
+section#ingredients h2 {
+    font-family: var(--font1);
+    color: var(--brown800);
+}
+
+section#ingredients ul {
+    margin-top: 7px;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+section#ingredients li {
+    font-family: var(--font0);
+    color: var(--stone600);
+    line-height: 1.8em;
+}
+
+section#ingredients li::before {
+    content: "•";
+    font-weight: bolder;
+    color: var(--stone600);
+    padding-right: 27px;
+    padding-left: 8px;
 }
