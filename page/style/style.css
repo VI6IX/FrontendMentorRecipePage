@@ -17,6 +17,13 @@
 :root {
     --font0: "Outfit", sans-serif;
     --font1: "Young Serif", serif;
+    --stone100: hsl(30, 54%, 90%);
+    --stone150: hsl(30, 18%, 87%);
+    --stone600: hsl(30, 10%, 34%);
+    --stone900: hsl(24, 5%, 18%);
+    --brown800: hsl(14, 45%, 36%);
+    --rose800: hsl(332, 51%, 32%);
+    --rose50: hsl(330, 100%, 98%);
 }
 
 * {
@@ -79,4 +86,39 @@ header p {
     font-family: var(--font0);
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+section#prepTime {
+    display: block;
+    background-color: var(--rose50);
+    margin: 0px auto 25px auto;
+    padding: 25px;
+    max-width: 85%;
+    border-radius: 20px;
+}
+
+section#prepTime h2 {
+    font-family: var(--font0);
+    font-weight: 600;
+    font-size: 1.3em;
+    color: var(--rose800)
+}
+
+section#prepTime ul {
+    list-style-position: inside;
+    list-style: none;
+}
+
+section#prepTime li {
+    font-family: var(--font0);
+    margin-top: 8px;
+    line-height: 1.6em;
+    color: var(--stone600);
+}
+
+section#prepTime li::before {
+    content: "•";
+    font-weight: bolder;
+    color: var(--rose800);
+    padding-right: 27px;
 }
