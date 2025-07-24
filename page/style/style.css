@@ -151,3 +151,12 @@ section#ingredients li::before {
     padding-right: 27px;
     padding-left: 8px;
 }
+
+hr {
+    display: block;
+    color: var(--stone100);
+    margin: 25px auto 25px auto;
+    height: 0px;
+    border-width: 0.01px;
+    width: 92%;
+}
