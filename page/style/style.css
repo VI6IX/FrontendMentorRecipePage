@@ -157,7 +157,7 @@ hr {
     color: var(--stone100);
     margin: 25px auto 25px auto;
     height: 0px;
-    border-width: 0.01px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
     width: 92%;
 }
 
