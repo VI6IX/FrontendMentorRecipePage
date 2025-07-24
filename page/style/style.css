@@ -160,3 +160,38 @@ hr {
     border-width: 0.01px;
     width: 92%;
 }
+
+section#instructions {
+    margin: 0px 25px;
+}
+
+section#instructions h2 {
+    font-family: var(--font1);
+    color: var(--brown800);
+}
+
+section#instructions ol {
+    font-family: var(--font0);
+    color: var(--brown800);
+    list-style-position: inside;
+    font-weight: bolder;
+    margin-top: 7px;
+}   
+
+section#instructions li::marker {
+    font-family: var(--font0);
+    color: var(--brown800);
+    font-weight: bolder;
+    padding-inline-start: 27px;
+}
+
+section#instructions li {
+    font-family: var(--font0);
+    color: var(--stone600);
+    font-weight: normal;
+    line-height: 1.8em;
+}
+
+section#instructions li::before {
+    content: "\00A0\00A0\00A0\00A0\00A0\00A0";
+}
