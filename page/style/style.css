@@ -30,3 +30,18 @@ article {
     background-color: white;
     border-radius: 20px;
 }
+
+figure {
+    overflow: hidden;
+}
+
+figure img {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    /* The image should be 100% relative to the viewport, not to the figure container */
+    max-width: 100vw;
+    border-radius: 20px;
+}
