@@ -189,6 +189,7 @@ section#instructions li {
     font-family: var(--font0);
     color: var(--stone600);
     font-weight: normal;
+    padding-left: 5px;
     line-height: 1.8em;
 }
 
