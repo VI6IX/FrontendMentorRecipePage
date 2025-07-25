@@ -231,4 +231,8 @@ section#nutrition th, td {
 section#nutrition .markedText {
     font-weight: 600;
     color: var(--brown800);
-  }
+}
+
+section#nutrition table tr:nth-last-child(1) th {
+    border-bottom: none;
+}
