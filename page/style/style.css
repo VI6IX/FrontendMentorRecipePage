@@ -198,7 +198,6 @@ section#instructions li::before {
 }
 
 section#nutrition {
-    background-color: orange;
     margin: 0px 40px;
     padding-bottom: 40px;
     overflow: hidden;
