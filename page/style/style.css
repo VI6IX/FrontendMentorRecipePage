@@ -58,7 +58,7 @@ figure img {
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 500px) {
     article {
         margin: 0px;
         border-radius: 0px;
