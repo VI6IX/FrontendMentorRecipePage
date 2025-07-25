@@ -209,7 +209,7 @@ section#nutrition h2 {
 section#nutrition p {
     font-family: var(--font0);
     color: var(--stone600);
-    margin-bottom: 15px;
+    margin: 25px 0px;
 }
 
 section#nutrition table {
@@ -223,12 +223,12 @@ section#nutrition th, td {
     font-weight: 400;
     text-align: left;
     font-size: 1.2em;
-    padding: 10px 230px 10px 25px;
+    padding: 10px 230px 15px 25px;
     
-    border-bottom: 1px solid var(--stone100);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
 }
 
-section#nutrition.markedText {
-    font-weight: 800;
+section#nutrition .markedText {
+    font-weight: 600;
     color: var(--brown800);
-}
+  }
