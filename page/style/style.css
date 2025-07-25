@@ -58,21 +58,6 @@ figure img {
     border-radius: 20px;
 }
 
-@media only screen and (max-width: 500px) {
-    article {
-        margin: 0px;
-        border-radius: 0px;
-        transition-duration: 0.25s;
-    }
-    
-    figure img {
-        margin: 0px;
-        width: 100%;
-        border-radius: 0px;
-        transition-duration: 0.5s;
-    }    
-}
-
 header {
     margin-left: 40px;
     margin-right: 40px;
@@ -239,4 +224,19 @@ section#nutrition .markedText {
 
 section#nutrition table tr:nth-last-child(1) th {
     border-bottom: none;
+}
+
+@media only screen and (max-width: 500px) {
+    article {
+        margin: 0px;
+        border-radius: 0px;
+        transition-duration: 0.25s;
+    }
+    
+    figure img {
+        margin: 0px;
+        width: 100%;
+        border-radius: 0px;
+        transition-duration: 0.5s;
+    }
 }
