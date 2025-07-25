@@ -77,7 +77,7 @@ header p {
 section#prepTime {
     display: block;
     background-color: var(--rose50);
-    margin: 0px auto 25px auto;
+    margin: 0px 40px;
     padding: 25px;
     max-width: 82%;
     border-radius: 20px;
@@ -110,7 +110,7 @@ section#prepTime li::before {
 }
 
 section#ingredients {
-    margin: 0px 40px;
+    margin: 25px 40px 0px 40px;
 }
 
 section#ingredients h2 {
