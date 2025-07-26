@@ -227,6 +227,10 @@ section#nutrition table tr:nth-last-child(1) th {
 }
 
 @media only screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+
     article {
         margin: 0px;
         border-radius: 0px;
